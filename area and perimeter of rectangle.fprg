@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area and perimeter of rectangle"/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 09:20:36 AM"/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOToxNTo0OCBBTTsyNzE5"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOToyMDozNiBBTTsxOzI4MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="l" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="perimeter" type="Real" array="False" size=""/>
+            <output expression="&quot;enter length&quot;" newline="True"/>
+            <input variable="l"/>
+            <output expression="&quot;enter breadth&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;area of rectange is&quot;" newline="True"/>
+            <output expression="l*b" newline="True"/>
+            <output expression="&quot;perimeter of rectangle is&quot;" newline="True"/>
+            <output expression="2*(l+b)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

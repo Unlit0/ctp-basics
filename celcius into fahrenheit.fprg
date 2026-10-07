@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="celcius into fahrenheit"/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 09:35:30 AM"/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOToyNTozOCBBTTsyNzE5"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOTozNTozMCBBTTsyOzI4MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempcelcius" type="Real" array="False" size=""/>
+            <output expression="&quot;enter the given temperature in celcius&quot;" newline="True"/>
+            <input variable="tempcelcius"/>
+            <output expression="&quot;the tempreature in fahrenheit is&quot;&amp; &quot; : &quot;&amp; (tempcelcius*1.8)+32" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sum of first N numbers"/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 10:00:27 AM"/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOTo1MzoxNyBBTTsyNzE3"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzsxMDowMDoyNyBBTTsxOzI4MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the number(N) till you want the sum to be:&quot;" newline="True"/>
+            <input variable="N"/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="1"/>
+            <for variable="i" start="0" end="N" direction="inc" step="1">
+                <assign variable="sum" expression="sum+i"/>
+            </for>
+            <output expression="&quot;the sum is:&quot;&amp; &quot; &quot;&amp; sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

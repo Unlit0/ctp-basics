@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area of circle"/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 09:15:15 AM"/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOTowNDo1MSBBTTsyNzEx"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOToxNToxNSBBTTsxOzI4MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valpi" type="Real" array="False" size=""/>
+            <declare name="radius" type="Real" array="False" size=""/>
+            <assign variable="valpi" expression="3.14"/>
+            <output expression="&quot;enter radius of the circle&quot;" newline="True"/>
+            <input variable="radius"/>
+            <output expression="valpi*radius*radius" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

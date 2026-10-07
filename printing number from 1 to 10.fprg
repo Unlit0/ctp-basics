@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="printing number from 1 to 10"/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-07 09:39:23 AM"/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOTozNTo1NiBBTTsyNzIw"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLTVWM1JEQkc7MjAyNi0xMC0wNzswOTozOToyMyBBTTsxOzI4MjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <for variable="num" start="1" end="10" direction="inc" step="1">
+                <output expression="num" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
